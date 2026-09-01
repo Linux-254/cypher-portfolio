@@ -14,6 +14,7 @@ type ImageCard = {
   imageAlt: string;
   replacementNote: string;
   tone: "paper" | "ink" | "cobalt";
+  link?: string;
 };
 
 const portraitCards: ImageCard[] = [
@@ -48,13 +49,14 @@ const portraitCards: ImageCard[] = [
 
 const projectCards: ImageCard[] = [
   {
-    title: "Sultan Vibes Hub",
-    eyebrow: "Featured project / image placeholder",
-    description: "A future project story about the idea, the system behind it, and the people it is built to serve.",
-    image: "/manus-storage/cypher-sultan-placeholder_7821802e.png",
-    imageAlt: "Editorial placeholder artwork for Sultan Vibes Hub",
+    title: "Sultan Cocktails Hub",
+    eyebrow: "Featured project / hospitality experience",
+    description: "A visual web experience that gives a hospitality concept its own atmosphere, browsing rhythm, and digital point of view.",
+    image: "/manus-storage/cypher-sultan-cocktails-hub_b30909c2.png",
+    imageAlt: "Sultan Cocktails Hub homepage with a cocktail, shisha, and Nairobi nightlife atmosphere",
     replacementNote: "Replace image URL in projectCards",
     tone: "cobalt",
+    link: "https://sultan-vibes-hub.onrender.com/",
   },
   {
     title: "Return to Christ",
@@ -96,12 +98,23 @@ function PlaceholderFrame({ card }: { card: ImageCard }) {
 function ImageCardView({ card, index }: { card: ImageCard; index: number }) {
   return (
     <article className={`image-card image-card--${card.tone}`} style={{ "--stagger": `${index * 70}ms` } as React.CSSProperties}>
-      <PlaceholderFrame card={card} />
+      {card.link ? (
+        <a className="project-image-link" href={card.link} target="_blank" rel="noreferrer" aria-label={`Open ${card.title} project`}>
+          <PlaceholderFrame card={card} />
+        </a>
+      ) : (
+        <PlaceholderFrame card={card} />
+      )}
       <div className="image-card__meta">
         <p className="micro-label">{card.eyebrow}</p>
         <h3>{card.title}</h3>
         <p>{card.description}</p>
         <code>{card.replacementNote}</code>
+        {card.link && (
+          <a className="text-link project-link" href={card.link} target="_blank" rel="noreferrer">
+            Open project <ArrowMark />
+          </a>
+        )}
       </div>
     </article>
   );

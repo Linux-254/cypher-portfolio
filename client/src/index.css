@@ -664,6 +664,15 @@ a:focus-visible {
   text-transform: uppercase;
 }
 
+.project-image-link {
+  display: block;
+}
+
+.project-link {
+  justify-self: flex-start;
+  margin-top: 15px;
+}
+
 .image-card__meta {
   padding-top: 18px;
 }
