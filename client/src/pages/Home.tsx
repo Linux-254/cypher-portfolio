@@ -142,7 +142,7 @@ export default function Home() {
           <p className="hero-lede">I’m Brian “Cypher” Ngatia — a technology builder working across AI, automation, software, trading systems, and expressive digital experiences.</p>
           <div className="hero-actions"><button className="primary-button" onClick={() => goTo("work")}>See selected work <ArrowUpRight size={17} /></button><button className="text-button" onClick={() => goTo("contact")}>Start a conversation <span>↓</span></button></div>
         </div>
-        <div className="hero-art"><img src="/manus-storage/cypher-hero-signal-systems_eed2d093.png" alt="Abstract luminous system network" /><div className="hero-art-caption"><span>01 / SYSTEMS THINKING</span><span>Signal over noise</span></div><div className="hero-orbit" /></div>
+        <div className="hero-art hero-portrait"><img src="/manus-storage/cypher-professional-photo_2f7ea25f.png" alt="Brian Cyrus Mwangi, technology builder and founder of Cy Tech Solutions" /><div className="hero-portrait-shade" /><div className="hero-art-caption"><span>01 / BUILDER PROFILE</span><span>Signal over noise</span></div><div className="hero-orbit" /><div className="hero-portrait-stamp">C/ CYPHER<br />CY TECH SOLUTIONS</div></div>
         <div className="hero-footer"><span>Scroll to inspect the work</span><ChevronDown size={17} /><span className="hero-count">01—04</span></div>
       </section>
 
