@@ -8,3 +8,12 @@
 - [x] Run type checks and production build.
 - [x] Verify desktop/mobile rendering and the WhatsApp link behavior.
 - [x] Save an updated checkpoint for delivery.
+
+## Professional Photo Integration
+
+- [x] Stage and upload the supplied professional photo as a persistent web asset.
+- [x] Add a personal identity section that uses the photo as the visual focal point.
+- [x] Preserve responsive cropping, readable overlay contrast, and existing Signal / Systems cues.
+- [x] Run type checks and production build after the update.
+- [x] Validate the updated desktop and mobile presentation.
+- [x] Save a new checkpoint for delivery.
