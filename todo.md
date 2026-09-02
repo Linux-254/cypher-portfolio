@@ -24,3 +24,12 @@
 - [x] Replace the Sultan project card visual while preserving its link and description.
 - [x] Validate the project card and production build.
 - [x] Save a new checkpoint.
+
+## Return to Christ and Warm Visual Refinement
+
+- [x] Stage and upload the supplied Return to Christ screenshot.
+- [x] Replace the Return to Christ project card visual while preserving its link and description.
+- [x] Refine the portfolio palette toward warm cultural accents and inviting professional type.
+- [x] Make the personal image card more abstract while preserving a clear portrait focal point.
+- [x] Validate responsive rendering and production build.
+- [x] Save a new checkpoint.

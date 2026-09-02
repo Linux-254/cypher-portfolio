@@ -32,7 +32,7 @@ const projects = [
     type: "Digital platform / community",
     description: "A calm, purposeful digital home for faith-led content and connection. The interface gives the message room to breathe while keeping the journey clear and approachable.",
     href: "https://return2chris-et65yita.manus.space/",
-    image: "/manus-storage/return-to-christ-preview_833aae62.png",
+    image: "/manus-storage/return-to-christ-reference_3a59f04e.png",
     accent: "cobalt",
     tag: "PURPOSE / PLATFORM",
   },
