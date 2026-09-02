@@ -22,7 +22,7 @@ const projects = [
     type: "Brand experience / hospitality",
     description: "A visual web experience that gives a hospitality concept its own atmosphere, browsing rhythm, and digital point of view. Designed to turn a product idea into a memorable brand surface.",
     href: "https://sultan-vibes-hub.onrender.com/",
-    image: "/manus-storage/sultan-cocktails-preview_bfc6a5a1.png",
+    image: "/manus-storage/sultan-cocktails-hub-reference_bf7f47da.png",
     accent: "ember",
     tag: "BRAND / EXPERIENCE",
   },

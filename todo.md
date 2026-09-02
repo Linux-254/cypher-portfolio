@@ -17,3 +17,10 @@
 - [x] Run type checks and production build after the update.
 - [x] Validate the updated desktop and mobile presentation.
 - [x] Save a new checkpoint for delivery.
+
+## Sultan Project Screenshot
+
+- [x] Stage and upload the supplied Sultan Cocktails Hub screenshot.
+- [x] Replace the Sultan project card visual while preserving its link and description.
+- [x] Validate the project card and production build.
+- [x] Save a new checkpoint.
