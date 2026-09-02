@@ -43,3 +43,10 @@
 - [x] Correct all displayed identity copy to Brian Ngatia.
 - [x] Validate responsive visuals, project links, and production build.
 - [x] Save a new checkpoint.
+
+## Restore Return to Christ Placeholder
+
+- [x] Restore the previous Return to Christ placeholder image in the project card.
+- [x] Preserve the current warm theme and all other project imagery.
+- [x] Validate the card and production build.
+- [x] Save a new checkpoint.
