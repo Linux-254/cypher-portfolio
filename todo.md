@@ -33,3 +33,13 @@
 - [x] Make the personal image card more abstract while preserving a clear portrait focal point.
 - [x] Validate responsive rendering and production build.
 - [x] Save a new checkpoint.
+
+## Warm Editorial Re-theme
+
+- [x] Review the two user-supplied visual reference URLs.
+- [x] Stage and upload the supplied reference images for persistent web use.
+- [x] Replace the dark green/black palette with a warm light editorial palette.
+- [x] Remove extra system overlays and simplify the visual treatment.
+- [x] Correct all displayed identity copy to Brian Ngatia.
+- [x] Validate responsive visuals, project links, and production build.
+- [x] Save a new checkpoint.
